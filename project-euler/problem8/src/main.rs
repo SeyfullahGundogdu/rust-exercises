@@ -16,5 +16,6 @@ fn main() {
             product = inner_product;
         }
     }
+    
     println!("{}", product);
 }

@@ -18,6 +18,7 @@ fn factor(mut num: i64) ->i64 {
     divider - 1
 }
 
+//some tests for factorization
 #[test]
 fn name() {
     assert_eq!(factor(10),5);

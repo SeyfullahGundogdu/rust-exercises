@@ -14,7 +14,6 @@ fn main() {
     println!("{}", num);
 }
 
-
 fn isprime(num:u64) -> bool {
     if num == 1 {
         return false;

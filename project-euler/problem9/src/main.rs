@@ -19,7 +19,6 @@ fn pythagorean() -> (u64,u64,u64) {
     let mut sum = 0.0;
     while sum != 1000.0 {
         b += 1.0;
-
         if b >= 1000.0 { //b > 1000;
             a += 1.0;
             b = a;

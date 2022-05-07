@@ -31,7 +31,6 @@ fn triangle(divisor_count:usize) -> u64 {
     num
 }
 
-
 fn divisors(num:u64) -> usize {
     let mut div_count = 2;
     let numsq = (num as f64).sqrt().ceil() as u64;

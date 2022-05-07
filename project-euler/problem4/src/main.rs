@@ -22,9 +22,8 @@ fn main() {
     }
     println!("{}", rev);
 }
-/**
- * return the inverse of a number
- */
+
+//return the inverse of a number
 fn reversenum(mut number: u64) -> u64 {
     let mut digit;
     let mut invnum = 0;

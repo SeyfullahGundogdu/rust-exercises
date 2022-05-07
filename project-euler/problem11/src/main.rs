@@ -87,7 +87,7 @@ fn multiply_rev_diag(matrix: [[u64;20];20], offset:usize) ->u64{
         for j in 0..20-offset+1 {
             _mult = matrix[i][j] * matrix[i-1][j+1] * matrix[i-2][j+2] * matrix[i-3][j+3];
             if  _mult > ans {
-                ans = _mult; 
+                ans = _mult;
             }
         }
     }

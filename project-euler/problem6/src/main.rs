@@ -9,5 +9,5 @@ fn diff(num:u64) -> u64 {
         sumsqr += elem;
         sqrsum += elem * elem;
     }
-    sumsqr*sumsqr -sqrsum
+    return sumsqr*sumsqr -sqrsum;
 }

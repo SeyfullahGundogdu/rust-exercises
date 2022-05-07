@@ -2,7 +2,7 @@
 //Find the sum of all the primes below two million.
 
 fn main() {
-    println!("{}",subprimes(10));
+    println!("{}",subprimes(2_000_000));
 }
 
 //https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes
